@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMICalc</title>
+    <link rel="stylesheet" href="BMICalc.css">
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <table align="center">
+    <tr>
+        <td>Your height(feet, inches): </td>
+        <td><input id="id1" type="number" ></td>
+        <td><input id="id2" type="number"></td>
+    </tr>
+    <tr>
+        <td>Your weight(in kg): </td>
+        <td><input id="id3" type="number"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button onClick="bMICalculator()" id="btn">BMICalc</button></td>
+    </tr>
+    <tr>
+        <td>Your BMI : </td>
+        <td id="result">Result</td>
+        <td id="note">Note</td>
+    </tr>
+    </table>
+    <script src="BMICalc.js"></script>
+</body>
+</html>
