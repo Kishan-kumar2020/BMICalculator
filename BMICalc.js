@@ -19,7 +19,13 @@ function bMICalculator() {
     else if(a>=25 && a<=29.9) {
         document.getElementById("note").innerHTML = "Overweight";
     }
-    else if(a>=30) {
-        document.getElementById("note").innerHTML = "Obesity";
+    else if(a>=30 && a<=34.9) {
+        document.getElementById("note").innerHTML = "Obesity (CLASS 1)";
+    }
+    else if(a>=35 && a<=39.9) {
+        document.getElementById("note").innerHTML = "Obesity (CLASS 2)";
+    }
+    else if(a>=40) {
+        document.getElementById("note").innerHTML = "Obesity (CLASS 3)";
     }
 }
